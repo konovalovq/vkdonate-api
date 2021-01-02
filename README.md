@@ -1,6 +1,6 @@
 ```js
 const { VKDonate } = require('vkdonate-api');
-const api = new VKDonate({ key: "", groupID: 1 })
+const api = new VKDonate({ key: process.env.key, groupID: process.env.groupID })
 
 /*
 	
